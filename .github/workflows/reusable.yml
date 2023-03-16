@@ -34,4 +34,4 @@ jobs:
       - name: Output result in reuseable
         run: |
          echo "${{ job.outputs.outcome }}"
-         echo "${{ set-result.outputs.step-result }}"
+         echo "${{ steps.set-result.outputs.step-result }}"
